@@ -4,14 +4,23 @@ import PageHeader from '../../components/PageHeader'
 import TeacherItem from '../../components/TeacherItem'
 import * as DATA from './TeacherList.json'
 import Input from '../../components/Input'
+import Select from '../../components/Select'
 
 function TeacherList() {
   return (
     <div id="page-teacher-list" className="container">
       <PageHeader title={DATA.title}>
         <form id="search-teachers">
-          <Input name='subject' label='Matéria' />
-          <Input name='week-day' label='Dia da Semana' />
+        <Select 
+            name='subject' 
+            label='Matéria' 
+            options={DATA.subjectData}
+            />
+          <Select 
+            name='week_day' 
+            label='Dia da semana' 
+            options={DATA.weekDays}
+            />
           <Input name='time' type='time' label='Hora' />
         </form>
       </PageHeader>

@@ -1,4 +1,14 @@
 {
   "title": "Que incrível que você quer dar aulas",
-  "desc": "O primeiro passo é preencher esse formulário de inscrição"
+  "desc": "O primeiro passo é preencher esse formulário de inscrição",
+  "subjectData": [
+    {"value": "Artes", "label": "Artes" },
+    { "value": "Biologia", "label": "Biologia" },
+    { "value": "Física", "label": "Física" },
+    { "value": "Matemática", "label": "Matemática" },
+    { "value": "História", "label": "História" },
+    { "value": "Português", "label": "Português" },
+    { "value": "Química", "label": "Química" },
+    { "value": "Geografia", "label": "Geografia" }
+  ]
 }
